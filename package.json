@@ -1,0 +1,45 @@
+{
+  "name": "technical-restaurant-challenge",
+  "version": "1.0.0",
+  "description": "Technical React exercise",
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"node server/index.js\""
+  },
+  "author": "RBI",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.17.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^3.0.1"
+  },
+  "proxy": "http://localhost:3001",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": true
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.38",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "typescript": "^4.7.2"
+  }
+}
