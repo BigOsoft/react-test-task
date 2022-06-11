@@ -2,6 +2,8 @@
 
 In this challenge you will build a basic React application that lets a customer view the menu at a restaurant.
 
+# Deadline: `18th June 2022`
+
 ## Candidate Notes
 
 `Use this section to add any notes for the reviewer`
